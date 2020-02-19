@@ -1,0 +1,14 @@
+.view {
+  padding: 4rem 10%;
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+  }
+
+  &__title {
+    @include type-title;
+    color: #444;
+  }
+}

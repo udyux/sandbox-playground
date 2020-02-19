@@ -1,0 +1,13 @@
+@mixin type-default {
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+@mixin type-bold {
+  font-weight: 600;
+}
+
+@mixin type-title {
+  @include type-bold;
+  font-size: 1.8rem;
+}

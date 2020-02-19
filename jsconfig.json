@@ -1,0 +1,11 @@
+{
+  "include": ["./src/**/*"],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noEmit": true,
+    "paths": { "@/*": ["./src/*"] },
+    "target": "es6"
+  }
+}
