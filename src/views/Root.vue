@@ -23,7 +23,7 @@ export default {
 </script>
 
 <style lang="scss">
-@import '@/styles/settings/index.scss';
+@import '../styles/settings/index.scss';
 
 .link-list {
   text-align: center;

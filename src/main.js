@@ -1,3 +1,4 @@
+import 'css-reset-udyux/reset.scss'
 import './styles/app.scss'
 
 import Vue from 'vue'
